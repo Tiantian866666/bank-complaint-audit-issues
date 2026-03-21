@@ -1,0 +1,9 @@
+dataset_id: sample_local
+display_name: 本地 smoke test 样本
+region: 吉林
+year: 2024
+description: 仓库内置的小样本，用于快速验证 issue 识别流程。
+input_uri: tests/fixtures/sample_tickets.csv
+source_repo: local-fixture
+source_commit: sample
+

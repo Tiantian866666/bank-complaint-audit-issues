@@ -1,0 +1,13 @@
+profile_name: cpu
+use_dense_encoder: true
+dense_encoder_name: moka-ai/m3e-small
+allow_sparse_only_fallback: true
+use_umap: true
+use_hdbscan: true
+dense_batch_size: 16
+term_top_k: 200
+min_cluster_size: 3
+min_samples: 2
+outlier_similarity_threshold: 0.3
+random_seed: 20260321
+

@@ -1,0 +1,13 @@
+profile_name: gpu
+use_dense_encoder: true
+dense_encoder_name: BAAI/bge-m3
+allow_sparse_only_fallback: false
+use_umap: true
+use_hdbscan: true
+dense_batch_size: 32
+term_top_k: 300
+min_cluster_size: 4
+min_samples: 2
+outlier_similarity_threshold: 0.25
+random_seed: 20260321
+

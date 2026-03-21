@@ -1,0 +1,25 @@
+project_name: bank-complaint-audit-issues
+paths:
+  data_dir: data
+  runs_dir: data/runs
+  cache_dir: data/cache
+  external_dir: data/external
+ingest:
+  required_fields:
+    - ticket_id
+    - desc_clean
+    - resolution_cause_clean
+    - biz_type
+    - biz_subtype
+texts:
+  primary_field: desc_clean
+  secondary_field: resolution_cause_clean
+assignment:
+  max_secondary_labels: 2
+discovery:
+  min_cluster_size: 3
+  min_samples: 2
+  outlier_similarity_threshold: 0.3
+runtime:
+  random_seed: 20260321
+

@@ -1,0 +1,9 @@
+dataset_id: jl_2024
+display_name: 吉林分行 2024 投诉工单
+region: 吉林
+year: 2024
+description: 来自清洗工程快照的吉林 2024 投诉工单。
+input_uri: https://raw.githubusercontent.com/Tiantian866666/bank-complaint-ticket-cleaning/7b57b5be112f061cd14e6079caf43480509529c6/data/releases/cleaned_tickets_20260321.csv
+source_repo: https://github.com/Tiantian866666/bank-complaint-ticket-cleaning
+source_commit: 7b57b5be112f061cd14e6079caf43480509529c6
+
