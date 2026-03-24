@@ -5,6 +5,13 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+# Preload torch early on Windows so later sklearn/UMAP-related native imports
+# do not interfere with PyTorch DLL initialization in the dense encoder path.
+try:  # pragma: no cover - optional dependency / environment-specific
+    import torch  # noqa: F401
+except Exception:  # pragma: no cover - keep CPU-only setups working
+    torch = None
+
 import pandas as pd
 import typer
 from rich.console import Console

@@ -1,0 +1,4 @@
+{
+  "encoder_mode": "dense",
+  "model": "BAAI/bge-m3"
+}

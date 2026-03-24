@@ -1,0 +1,8 @@
+{
+  "dataset_id": "jl_2024_local",
+  "dataset_name": "吉林分行 2024 投诉工单（本地）",
+  "profile_name": "gpu",
+  "run_id": "20260324-200617",
+  "input_path_or_uri": "C:\\Users\\Administrator\\bank-complaint-ticket-cleaning\\data\\releases\\cleaned_tickets_20260321.csv",
+  "row_count": 4384
+}
